@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>card</title>
+  
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<style>
+  .card:hover{
+    box-shadow: 20px 20px 80px -44px #000;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .product1{
+    width: 100%;
+    height: 350px;
+    background: url(f1.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product1:hover{
+    background: url(back1.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product2{
+    width: 100%;
+    height: 350px;
+    background: url(f2.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product2:hover{
+    background: url(back2.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product3{
+    width: 100%;
+    height: 350px;
+    background: url(f3.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product3:hover{
+    background: url(back3.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product4{
+    width: 100%;
+    height: 350px;
+    background: url(f4.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product4:hover{
+    background: url(back4.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product5{
+    width: 100%;
+    height: 350px;
+    background: url(f5.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product5:hover{
+    background: url(back5.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product6{
+    width: 100%;
+    height: 350px;
+    background: url(f6.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product6:hover{
+    background: url(back6.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product7{
+    width: 100%;
+    height: 350px;
+    background: url(f7.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product7:hover{
+    background: url(back7.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product8{
+    width: 100%;
+    height: 350px;
+    background: url(f8.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product8:hover{
+    background: url(back8.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product9{
+    width: 100%;
+    height: 350px;
+    background: url(f9.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product9:hover{
+    background: url(back9.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product10{
+    width: 100%;
+    height: 350px;
+    background: url(f10.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product10:hover{
+    background: url(back10.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product11{
+    width: 100%;
+    height: 350px;
+    background: url(f11.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product11:hover{
+    background: url(back11.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product12{
+    width: 100%;
+    height: 350px;
+    background: url(g2.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product12:hover{
+    background: url(g1.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product13{
+    width: 100%;
+    height: 350px;
+    background: url(g2.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product13:hover{
+    background: url(g1.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product14{
+    width: 100%;
+    height: 350px;
+    background: url(g2.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product14:hover{
+    background: url(g1.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .product15{
+    width: 100%;
+    height: 350px;
+    background: url(g2.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  .product15:hover{
+    background: url(g1.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .card{
+    margin-top: 50px;
+    padding-left: 10px 10px;
+  }
+
+
+
+</style>
+
+<body>
+  <div class="container my-3 mb-5"> 
+    <div class="row">
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card">
+        <!-- <img src="n1.jpg" class="card-img-top w-100"/> -->
+        <div class="product1">
+
+        </div>
+
+        <div class="card-body">
+          <h2 class="card-title">BAG 1</h2>
+          <div class="d-flex justify-content-between">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+            <p class="card-text mr-4 text-success">$150</p>
+            
+          </div>
+          <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+
+        </div>
+
+      </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <!-- <img src="n2.jpg" class="card-img-top w-100"/> -->
+          <div class="product2">
+
+          </div>
+
+          <div class="card-body">
+            <h2 class="card-title">BAG 2</h2>
+            <div class="d-flex justify-content-between">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+              <p class="card-text mr-4 text-success">$150</p>
+              
+            </div>
+            <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+  
+          </div>
+  
+        </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <!-- <img src="n3.jpg" class="card-img-top w-100"/> -->
+            <div class="product3">
+
+            </div>
+
+            <div class="card-body">
+              <h2 class="card-title">BAG 3</h2>
+              <div class="d-flex justify-content-between">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+                <p class="card-text mr-4 text-success">$150</p>
+                
+              </div>
+              <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+    
+            </div>
+    
+          </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <!-- <img src="n4.jpg" class="card-img-top w-100"/> -->
+              <div class="product4">
+
+              </div>
+
+              <div class="card-body">
+                <h2 class="card-title">BAG 4</h2>
+                <div class="d-flex justify-content-between">
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+                  <p class="card-text mr-4 text-success">$150</p>
+                  
+                </div>
+                <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+      
+              </div>
+      
+            </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <!-- <img src="n5.jpg" class="card-img-top w-100"/> -->
+                <div class="product5">
+
+                </div>
+                <div class="card-body">
+                  <h2 class="card-title">BAG 5</h2>
+                  <div class="d-flex justify-content-between">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+                    <p class="card-text mr-4 text-success">$150</p>
+                    
+                  </div>
+                  <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+        
+                </div>
+        
+              </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <!-- <img src="n6.jpg" class="card-img-top w-100"/> -->
+                  <div class="product6">
+
+                  </div>
+                  <div class="card-body">
+                    <h2 class="card-title">BAG 6</h2>
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+                      <p class="card-text mr-4 text-success">$150</p>
+                      
+                    </div>
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+          
+                  </div>
+          
+                </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="card">
+                    <!-- <img src="n7.jpg" class="card-img-top w-100"/> -->
+                    <div class="product7">
+
+                    </div>
+                    <div class="card-body">
+                      <h2 class="card-title">BAG 7</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+                        <p class="card-text mr-4 text-success">$150</p>
+                        
+                      </div>
+                      <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+            
+                    </div>
+            
+                  </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                      <!-- <img src="n8.jpg" class="card-img-top w-100"/> -->
+                      <div class="product8">
+
+                      </div>
+                      <div class="card-body">
+                        <h2 class="card-title">BAG 8</h2>
+                        <div class="d-flex justify-content-between">
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+                          <p class="card-text mr-4 text-success">$150</p>
+                          
+                        </div>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+              
+                      </div>
+              
+                    </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="card">
+                        <!-- <img src="n17.jpg" class="card-img-top w-100"/> -->
+                        <div class="product9">
+
+                        </div>
+                        <div class="card-body">
+                          <h2 class="card-title">BAG 9</h2>
+                          <div class="d-flex justify-content-between">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+                            <p class="card-text mr-4 text-success">$150</p>
+                            
+                          </div>
+                          <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+                
+                        </div>
+                
+                      </div>
+                      </div>
+
+                      <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                          <!-- <img src="n20.jpg" class="card-img-top w-100"/> -->
+                          <div class="product10">
+
+                          </div>
+                          <div class="card-body">
+                            <h2 class="card-title">BAG 10</h2>
+                            <div class="d-flex justify-content-between">
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+                              <p class="card-text mr-4 text-success">$150</p>
+                              
+                            </div>
+                            <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+                  
+                          </div>
+                  
+                        </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                          <div class="card">
+                            <!-- <img src="n18.jpg" class="card-img-top w-100"/> -->
+                            <div class="product11">
+
+                            </div>
+                            <div class="card-body">
+                              <h2 class="card-title">BAG 11</h2>
+                              <div class="d-flex justify-content-between">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+                                <p class="card-text mr-4 text-success">$150</p>
+                                
+                              </div>
+                              <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+                    
+                            </div>
+                    
+                          </div>
+                          </div>
+
+                          <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                              <!-- <img src="n12.jpg" class="card-img-top w-100"/> -->
+                              <div class="product12">
+
+                              </div>
+                              <div class="card-body">
+                                <h2 class="card-title">BAG 12</h2>
+                                <div class="d-flex justify-content-between">
+                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+                                  <p class="card-text mr-4 text-success">$150</p>
+                                  
+                                </div>
+                                <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+                      
+                              </div>
+                      
+                            </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                              <div class="card">
+                                <!-- <img src="n13.jpg" class="card-img-top w-100"/> -->
+                                <div class="product13">
+
+                                </div>
+                                <div class="card-body">
+                                  <h2 class="card-title">BAG 13</h2>
+                                  <div class="d-flex justify-content-between">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+                                    <p class="card-text mr-4 text-success">$150</p>
+                                    
+                                  </div>
+                                  <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+                        
+                                </div>
+                        
+                              </div>
+                              </div>
+
+                              <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="card">
+                                  <!-- <img src="n10.jpg" class="card-img-top w-100"/> -->
+                                  <div class="product14">
+
+                                  </div>
+                                  <div class="card-body">
+                                    <h2 class="card-title">BAG 14</h2>
+                                    <div class="d-flex justify-content-between">
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+                                      <p class="card-text mr-4 text-success">$150</p>
+                                      
+                                    </div>
+                                    <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+                          
+                                  </div>
+                          
+                                </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-4 col-lg-3">
+                                  <div class="card">
+                                    <!-- <img src="n9.jpg" class="card-img-top w-100"/> -->
+                                    <div class="product15">
+
+                                    </div>
+                                    <div class="card-body">
+                                      <h2 class="card-title">BAG 15</h2>
+                                      <div class="d-flex justify-content-between">
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aut?</p>
+                                        <p class="card-text mr-4 text-success">$150</p>
+                                        
+                                      </div>
+                                      <a href="#" class="card-link" data-toggle="modal" data-target="#modalId">More</a>
+                            
+                                    </div>
+                            
+                                  </div>
+                                  </div>
+
+    </div>
+
+  </div>
+
+  <!--Modal Code -->
+    <div class="modal fade" id="modalId">
+      <div class="modal-dialog bg-success">
+        <div class="modal-content" style="transform: scaleX(1.4);">
+          <div class="modal-header pb-2">
+            <h1 class="font-weight-light ml-4">Description</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row mt-2 p-3">
+              <div class="col-md-6">
+                <img src="" width="100%" height="200px" class="rounded"/>
+              </div>
+              <div class="col-md-6">
+                <h2 class="product-name"></h2>
+              <p style="box-sizing: border-box;" class="product-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, maiores.</p>
+              <p>Review :&nbsp;&nbsp;&nbsp;
+                <i class="fa fa-star text-warning ml-2"></i>
+                <i class="fa fa-star text-warning ml-2"></i>
+                <i class="fa fa-star text-warning ml-2"></i>
+                <i class="fa fa-star text-warning ml-2"></i>
+                <i class="fa fa-star ml-2"></i>
+
+              </p>
+              <h4 class="product-price"></h4>
+              <button class="btn btn-success mt-2" style="width: 150px;">Add to card</button>
+            </div>
+
+            </div>
+          </div>
+                
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <img src="n9.jpg" style="width: 200px; height:200px;" alt="img1" class="img card-img" onmouseenter="change()">
+    </div>
+
+    <script>
+      const change = () =>{
+        var img = document.getElementsByClassName('img')[0].src;
+        var alt = document.getElementsByClassName('img')[0].alt;
+
+        if(alt == 'img1'){
+          console.log(img);
+          document.getElementsByClassName('img')[0].src = 'n10.jpg'
+          document.getElementsByClassName('img')[0].alt = 'Img1'
+
+        }else{
+          document.getElementsByClassName('img')[0].src = 'n9.jpg'
+          document.getElementsByClassName('img')[0].alt = 'img1'
+        }
+
+      }
+      $(document).ready(function(){
+          $(".card-link").click(function(){
+          $(".rounded").attr("src",$(this).parent().siblings().attr("src"));
+          $(".product-name").text($(this).siblings("h2").text());
+          $(".product-desc").text($(this).siblings("div").find("p:nth(0)").text());
+          $(".product-price").text($(this).siblings("div").find("p:nth(1)").text());
+          });
+          $(window).resize(function (){
+          if($(window).width() <600){
+          $(".modal-content").css("transform" , "scaleX(1)");
+          }
+          else{
+          $(".modal-content").css("transform" , "scaleX(1.4)");
+          }
+          });
+          });
+    
+    </script>
+
+</body>
+</html>

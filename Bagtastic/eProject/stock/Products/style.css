@@ -1,0 +1,195 @@
+*{
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'poopins' sans-serif;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+.btn.descbtn{
+  background-color: grey;
+  border: black;
+}
+.box-shadow{
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+}
+.product-desc{
+  color:black;
+}
+.card:hover{
+  box-shadow: 0 0 10px 1px rgb(196, 195, 195);
+  transition: 0.5s;
+
+}
+.card:hover .bi-eye{
+  display: block;
+  
+}
+.bi-eye{
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  display: none;
+  
+}
+.bi-eye:hover{
+  background-color: #5c5a5a;
+}
+
+.card-link{
+   display: flex;
+  align-self: flex-end;
+  margin-bottom: 50px; 
+  margin-left: 85%;
+  display: block;
+  border-radius: 50%;
+  color: black;
+}
+.card-link{
+   display: flex;
+  align-self: flex-end;
+  margin-bottom: 50px; 
+  margin-left: 85%;
+  display: block;
+  border-radius: 50%;
+  color: black;
+}
+
+.nas1{
+  width: 100%;
+  height: 350px;
+  background: url(nf1.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.nas1:hover{
+  background: url(nb1.png) no-repeat center;
+  background-size: cover;
+}
+.nas2{
+  width: 100%;
+  height: 350px;
+  background: url(nf2.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.nas2:hover{
+  background: url(nb2.png) no-repeat center;
+  background-size: cover;
+}
+.nas3{
+  width: 100%;
+  height: 350px;
+  background: url(nf3.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.nas3:hover{
+  background: url(nb3.png) no-repeat center;
+  background-size: cover;
+}
+.nas4{
+  width: 100%;
+  height: 350px;
+  background: url(nf4.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.nas4:hover{
+  background: url(nb4.png) no-repeat center;
+  background-size: cover;
+}
+.nas5{
+  width: 100%;
+  height: 350px;
+  background: url(nf5.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.nas5:hover{
+  background: url(nb5.png) no-repeat center;
+  background-size: cover;
+}
+.nas6{
+  width: 100%;
+  height: 350px;
+  background: url(nf6.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.nas6:hover{
+  background: url(nb6.png) no-repeat center;
+  background-size: cover;
+}
+.nas7{
+  width: 100%;
+  height: 350px;
+  background: url(nf7.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.nas7:hover{
+  background: url(nb7-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.nas8{
+  width: 100%;
+  height: 350px;
+  background: url(nf8.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.nas8:hover{
+  background: url(nb8.png) no-repeat center;
+  background-size: cover;
+}
+.nas9{
+  width: 100%;
+  height: 350px;
+  background: url(nf9.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.nas9:hover{
+  background: url(nb9.png) no-repeat center;
+  background-size: cover;
+}
+.nas10{
+  width: 100%;
+  height: 350px;
+  background: url(nf10.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.nas10:hover{
+  background: url(nb10.png) no-repeat center;
+  background-size: cover;
+}
+.nas11{
+  width: 100%;
+  height: 350px;
+  background: url(nf11.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.nas11:hover{
+  background: url(nb11.png) no-repeat center;
+  background-size: cover;
+}
+.nas12{
+  width: 100%;
+  height: 350px;
+  background: url(nf12.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.nas12:hover{
+  background: url(nb12.png) no-repeat center;
+  background-size: cover;
+}

@@ -1,0 +1,1874 @@
+
+*{
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'poopins' sans-serif;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+.heading1{
+  color: red;
+  animation-name: example;
+  animation: example 2s infinite;
+  background-color: whitesmoke;
+  font-weight:600;
+  font-style: bold;
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+
+}
+@media screen and (max-width:320px) {
+  /* .heading1{
+    color: red;
+    animation-name: example;
+    animation: example 2s infinite;
+    background-color: whitesmoke;
+    font-weight:600;
+    font-style: bold;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+  
+  } */
+  .heading1 h1{
+    font-size: 1.5em;
+    text-align: center;
+
+  }
+  .heading1 a img{
+    width: 60%;
+    height: 60%;
+  }
+  .heading1 a{
+    text-align: center;
+  }
+  
+}
+
+@keyframes example {
+  0% {
+    color: red;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: rgb(255, 0, 212);
+  }
+  100% {
+    color: rgb(0, 128, 117);
+  }
+}
+.btn.descbtn{
+  background-color: grey;
+  border: black;
+}
+.box-shadow{
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+}
+.product-desc{
+  color:black;
+}
+.card:hover{
+  box-shadow: 0 0 10px 1px rgb(196, 195, 195);
+  transition: 0.5s;
+
+}
+.card:hover .bi-eye{
+  display: block;
+  
+}
+.bi-eye{
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  display: none;
+  
+}
+.bi-eye:hover{
+  background-color: #5c5a5a;
+}
+
+.card-link{
+   display: flex;
+  align-self: flex-end;
+  margin-bottom: 50px; 
+  margin-left: 85%;
+  display: block;
+  border-radius: 50%;
+  color: black;
+}
+.card-link{
+   display: flex;
+  align-self: flex-end;
+  margin-bottom: 50px; 
+  margin-left: 85%;
+  display: block;
+  border-radius: 50%;
+  color: black;
+}
+
+/* 1st page */
+
+.pic1{
+  width: 100%;
+  height: 350px;
+  background: url(handf1.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic1:hover{
+  background: url(newitem.png) no-repeat center;
+  background-size: cover;
+}
+.pic2{
+  width: 100%;
+  height: 350px;
+  background: url(hand\ f2\ \(1\).png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic2:hover{
+  background: url(hand\ b2\ \(1\).png) no-repeat center;
+  background-size: cover;
+}
+.pic3{
+  width: 100%;
+  height: 350px;
+  background: url(hand\ f3\ \(1\).png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic3:hover{
+  background: url(hand\ b3\ \(1\).png) no-repeat center;
+  background-size: cover;
+}
+.pic4{
+  width: 100%;
+  height: 350px;
+  background: url(hand\ f4\ \(1\).png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic4:hover{
+  background: url(hand\ b4\ \(1\).png) no-repeat center;
+  background-size: cover;
+}
+.pic5{
+  width: 100%;
+  height: 350px;
+  background: url(handf5\ \(1\).png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic5:hover{
+  background: url(handb5\ \(1\).png) no-repeat center;
+  background-size: cover;
+}
+.pic6{
+  width: 100%;
+  height: 350px;
+  background: url(handf6\ \(1\).png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic6:hover{
+  background: url(handb6\ \(1\).png) no-repeat center;
+  background-size: cover;
+}
+.pic7{
+  width: 100%;
+  height: 350px;
+  background: url(handf7\ \(1\).png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic7:hover{
+  background: url(handb7\ \(1\).png) no-repeat center;
+  background-size: cover;
+}
+.pic8{
+  width: 100%;
+  height: 350px;
+  background: url(handf8\ \(1\).png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic8:hover{
+  background: url(handb8\ \(1\).png) no-repeat center;
+  background-size: cover;
+}
+.pic9{
+  width: 100%;
+  height: 350px;
+  background: url(handf9\ \(1\).png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic9:hover{
+  background: url(handb9\ \(1\).png) no-repeat center;
+  background-size: cover;
+}
+.pic10{
+  width: 100%;
+  height: 350px;
+  background: url(handf10\ \(1\).png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic10:hover{
+  background: url(handb10\ \(1\).png) no-repeat center;
+  background-size: cover;
+}
+.pic11{
+  width: 100%;
+  height: 350px;
+  background: url(handf11\ \(1\).png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic11:hover{
+  background: url(handb11\ \(1\).png) no-repeat center;
+  background-size: cover;
+}
+.pic12{
+  width: 100%;
+  height: 350px;
+  background: url(handf12\ \(1\).png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic12:hover{
+  background: url(handb12\ \(1\).png) no-repeat center;
+  background-size: cover;
+}
+
+/*2nd page*/
+
+.pic13{
+  width: 100%;
+  height: 350px;
+  background: url(handf19.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic13:hover{
+  background: url(handb19.png) no-repeat center;
+  background-size: cover;
+}
+.pic14{
+  width: 100%;
+  height: 350px;
+  background: url(handf20.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic14:hover{
+  background: url(handb20.png) no-repeat center;
+  background-size: cover;
+}
+.pic15{
+  width: 100%;
+  height: 350px;
+  background: url(handf21.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic15:hover{
+  background: url(handb21.png) no-repeat center;
+  background-size: cover;
+}
+.pic16{
+  width: 100%;
+  height: 350px;
+  background: url(handf17.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic16:hover{
+  background: url(handb17.jpg) no-repeat center;
+  background-size: cover;
+}
+.pic17{
+  width: 100%;
+  height: 350px;
+  background: url(handf18.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic17:hover{
+  background: url(handb18.png) no-repeat center;
+  background-size: cover;
+}
+.pic18{
+  width: 100%;
+  height: 350px;
+  background: url(handb27.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic18:hover{
+  background: url(handf27.png) no-repeat center;
+  background-size: cover;
+}
+.pic19{
+  width: 100%;
+  height: 350px;
+  background: url(handf22.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic19:hover{
+  background: url(handb22.png) no-repeat center;
+  background-size: cover;
+}
+.pic20{
+  width: 100%;
+  height: 350px;
+  background: url(handf23.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic20:hover{
+  background: url(handb23.png) no-repeat center;
+  background-size: cover;
+}
+.pic21{
+  width: 100%;
+  height: 350px;
+  background: url(handf25.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic21:hover{
+  background: url(handb25.png) no-repeat center;
+  background-size: cover;
+}
+.pic22{
+  width: 100%;
+  height: 350px;
+  background: url(handf13.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic22:hover{
+  background: url(handb13.png) no-repeat center;
+  background-size: cover;
+}
+.pic23{
+  width: 100%;
+  height: 350px;
+  background: url(handf14.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic23:hover{
+  background: url(handb14.png) no-repeat center;
+  background-size: cover;
+}
+.pic24{
+  width: 100%;
+  height: 350px;
+  background: url(handf15.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.pic24:hover{
+  background: url(handb15.png ) no-repeat center;
+  background-size: cover;
+}
+
+/*3rd page*/
+
+.kid1{
+  width: 100%;
+  height: 350px;
+  background: url(manf1.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.kid1:hover{
+  background: url(manb1.jpg) no-repeat center;
+  background-size: cover;
+}
+.kid2{
+  width: 100%;
+  height: 350px;
+  background: url(manf2.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.kid2:hover{
+  background: url(manb2.jpg) no-repeat center;
+  background-size: cover;
+}
+.kid3{
+  width: 100%;
+  height: 350px;
+  background: url(manf3.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.kid3:hover{
+  background: url(manb3.jpg) no-repeat center;
+  background-size: cover;
+}
+.kid4{
+  width: 100%;
+  height: 350px;
+  background: url(manf4.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.kid4:hover{
+  background: url(manb4.jpg) no-repeat center;
+  background-size: cover;
+}
+.kid5{
+  width: 100%;
+  height: 350px;
+  background: url(manf5.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.kid5:hover{
+  background: url(manb5.jpg) no-repeat center;
+  background-size: cover;
+}
+.kid6{
+  width: 100%;
+  height: 350px;
+  background: url(manf6.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.kid6:hover{
+  background: url(manb6.jpg) no-repeat center;
+  background-size: cover;
+}
+.kid7{
+  width: 100%;
+  height: 350px;
+  background: url(manf7.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.kid7:hover{
+  background: url(manb7.jpg) no-repeat center;
+  background-size: cover;
+}
+.kid8{
+  width: 100%;
+  height: 350px;
+  background: url(manf8.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.kid8:hover{
+  background: url(manb8.jpg) no-repeat center;
+  background-size: cover;
+}
+.kid9{
+  width: 100%;
+  height: 350px;
+  background: url(manf9.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.kid9:hover{
+  background: url(manb9.jpg) no-repeat center;
+  background-size: cover;
+}
+.kid10{
+  width: 100%;
+  height: 350px;
+  background: url(manf10.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.kid10:hover{
+  background: url(manb10.jpg) no-repeat center;
+  background-size: cover;
+}
+.kid11{
+  width: 100%;
+  height: 350px;
+  background: url(manf11.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.kid11:hover{
+  background: url(manb11.jpg) no-repeat center;
+  background-size: cover;
+}
+.kid12{
+  width: 100%;
+  height: 350px;
+  background: url(manf12.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.kid12:hover{
+  background: url(manb12.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/* 4th page */
+
+.man1{
+  width: 100%;
+  height: 350px;
+  background: url(newf1.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.man1:hover{
+  background: url(newb1.png) no-repeat center;
+  background-size: cover;
+}
+.man2{
+  width: 100%;
+  height: 350px;
+  background: url(newf6.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.man2:hover{
+  background: url(newb6.png) no-repeat center;
+  background-size: cover;
+}
+.man3{
+  width: 100%;
+  height: 350px;
+  background: url(nasar2.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.man3:hover{
+  background: url(nasar22.png) no-repeat center;
+  background-size: cover;
+}
+.man4{
+  width: 100%;
+  height: 350px;
+  background: url(newf5.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.man4:hover{
+  background: url(newb5.png) no-repeat center;
+  background-size: cover;
+}
+.man5{
+  width: 100%;
+  height: 350px;
+  background: url(newf7.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.man5:hover{
+  background: url(newb7.png) no-repeat center;
+  background-size: cover;
+}
+.man6{
+  width: 100%;
+  height: 350px;
+  background: url(newf2.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.man6:hover{
+  background: url(newb2.png) no-repeat center;
+  background-size: cover;
+}
+.man7{
+  width: 100%;
+  height: 350px;
+  background: url(nasar4.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.man7:hover{
+  background: url(nasar44.png) no-repeat center;
+  background-size: cover;
+}
+.man8{
+  width: 100%;
+  height: 350px;
+  background: url(nasar9.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.man8:hover{
+  background: url(nasar99.png) no-repeat center;
+  background-size: cover;
+}
+.man9{
+  width: 100%;
+  height: 350px;
+  background: url(nasar1.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.man9:hover{
+  background: url(nasar11.png) no-repeat center;
+  background-size: cover;
+}
+.man10{
+  width: 100%;
+  height: 350px;
+  background: url(newf3.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.man10:hover{
+  background: url(newb3.png) no-repeat center;
+  background-size: cover;
+}
+.man11{
+  width: 100%;
+  height: 350px;
+  background: url(newf8.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.man11:hover{
+  background: url(newb8.png) no-repeat center;
+  background-size: cover;
+}
+.man12{
+  width: 100%;
+  height: 350px;
+  background: url(nasar3.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.man12:hover{
+  background: url(nasar33.png) no-repeat center;
+  background-size: cover;
+}
+
+/* 5th page */
+
+.girl1{
+  width: 100%;
+  height: 350px;
+  background: url(f6.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.girl1:hover{
+  background: url(back6.jpg) no-repeat center;
+  background-size: cover;
+}
+.girl2{
+  width: 100%;
+  height: 350px;
+  background: url(f2.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.girl2:hover{
+  background: url(back2.jpg) no-repeat center;
+  background-size: cover;
+}
+.girl3{
+  width: 100%;
+  height: 350px;
+  background: url(f3.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.girl3:hover{
+  background: url(back3.jpg) no-repeat center;
+  background-size: cover;
+}
+.girl4{
+  width: 100%;
+  height: 350px;
+  background: url(f9.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.girl4:hover{
+  background: url(back9.jpg) no-repeat center;
+  background-size: cover;
+}
+.girl5{
+  width: 100%;
+  height: 350px;
+  background: url(f11.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.girl5:hover{
+  background: url(back11.jpg) no-repeat center;
+  background-size: cover;
+}
+.girl6{
+  width: 100%;
+  height: 350px;
+  background: url(f5.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.girl6:hover{
+  background: url(back5.jpg) no-repeat center;
+  background-size: cover;
+}
+.girl7{
+  width: 100%;
+  height: 350px;
+  background: url(f7.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.girl7:hover{
+  background: url(back7.jpg) no-repeat center;
+  background-size: cover;
+}
+.girl8{
+  width: 100%;
+  height: 350px;
+  background: url(f8.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.girl8:hover{
+  background: url(back8.jpg) no-repeat center;
+  background-size: cover;
+}
+.girl9{
+  width: 100%;
+  height: 350px;
+  background: url(f1.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.girl9:hover{
+  background: url(back1.jpg) no-repeat center;
+  background-size: cover;
+}
+.girl10{
+  width: 100%;
+  height: 350px;
+  background: url(girlf4.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.girl10:hover{
+  background: url(girlb4.png) no-repeat center;
+  background-size: cover;
+}
+.girl11{
+  width: 100%;
+  height: 350px;
+  background: url(girlf3.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.girl11:hover{
+  background: url(girlb3.png) no-repeat center;
+  background-size: cover;
+}
+.girl12{
+  width: 100%;
+  height: 350px;
+  background: url(f10.jpg) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.girl12:hover{
+  background: url(back10.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/* 6th page */
+
+.mou1{
+  width: 100%;
+  height: 350px;
+  background: url(mf1.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mou1:hover{
+  background: url(mb1.png) no-repeat center;
+  background-size: cover;
+}
+.mou2{
+  width: 100%;
+  height: 350px;
+  background: url(mf2.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mou2:hover{
+  background: url(mb2.png) no-repeat center;
+  background-size: cover;
+}
+.mou3{
+  width: 100%;
+  height: 350px;
+  background: url(mf33.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mou3:hover{
+  background: url(mb33.png) no-repeat center;
+  background-size: cover;
+}
+.mou4{
+  width: 100%;
+  height: 350px;
+  background: url(mf44.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mou4:hover{
+  background: url(mb44.png) no-repeat center;
+  background-size: cover;
+}
+.mou5{
+  width: 100%;
+  height: 350px;
+  background: url(mf55.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mou5:hover{
+  background: url(mb55.png) no-repeat center;
+  background-size: cover;
+}
+.mou6{
+  width: 100%;
+  height: 350px;
+  background: url(mf66.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mou6:hover{
+  background: url(mb66.png) no-repeat center;
+  background-size: cover;
+}
+.mou7{
+  width: 100%;
+  height: 350px;
+  background: url(mf7.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mou7:hover{
+  background: url(mb7.png) no-repeat center;
+  background-size: cover;
+}
+.mou8{
+  width: 100%;
+  height: 350px;
+  background: url(mf88.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mou8:hover{
+  background: url(mb88.png) no-repeat center;
+  background-size: cover;
+}
+.mou9{
+  width: 100%;
+  height: 350px;
+  background: url(mf99.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mou9:hover{
+  background: url(mb99.png) no-repeat center;
+  background-size: cover;
+}
+.mou10{
+  width: 100%;
+  height: 350px;
+  background: url(mf10.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mou10:hover{
+  background: url(mb10.png) no-repeat center;
+  background-size: cover;
+}
+.mou11{
+  width: 100%;
+  height: 350px;
+  background: url(mf111.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mou11:hover{
+  background: url(mb111.png) no-repeat center;
+  background-size: cover;
+}
+.mou12{
+  width: 100%;
+  height: 350px;
+  background: url(mf122.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mou12:hover{
+  background: url(mb122.png) no-repeat center;
+  background-size: cover;
+}
+
+/* 7th page */
+
+.sch1{
+  width: 100%;
+  height: 350px;
+  background: url(sf1.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.sch1:hover{
+  background: url(sb1.png) no-repeat center;
+  background-size: cover;
+}
+.sch2{
+  width: 100%;
+  height: 350px;
+  background: url(sf2.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.sch2:hover{
+  background: url(sb2.png) no-repeat center;
+  background-size: cover;
+}
+.sch3{
+  width: 100%;
+  height: 350px;
+  background: url(sf3.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.sch3:hover{
+  background: url(sb3.png) no-repeat center;
+  background-size: cover;
+}
+.sch4{
+  width: 100%;
+  height: 350px;
+  background: url(sf4.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.sch4:hover{
+  background: url(sb1.png) no-repeat center;
+  background-size: cover;
+}
+.sch5{
+  width: 100%;
+  height: 350px;
+  background: url(sf5.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.sch5:hover{
+  background: url(sb5.png) no-repeat center;
+  background-size: cover;
+}
+.sch6{
+  width: 100%;
+  height: 350px;
+  background: url(sf6.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.sch6:hover{
+  background: url(sb6.png) no-repeat center;
+  background-size: cover;
+}
+.sch7{
+  width: 100%;
+  height: 350px;
+  background: url(sf7.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.sch7:hover{
+  background: url(sb7.png) no-repeat center;
+  background-size: cover;
+}
+.sch8{
+  width: 100%;
+  height: 350px;
+  background: url(sf8.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.sch8:hover{
+  background: url(sb8.png) no-repeat center;
+  background-size: cover;
+}
+.sch9{
+  width: 100%;
+  height: 350px;
+  background: url(sf9.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.sch9:hover{
+  background: url(sb9.png) no-repeat center;
+  background-size: cover;
+}
+.sch10{
+  width: 100%;
+  height: 350px;
+  background: url(sf10.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.sch10:hover{
+  background: url(sb10.png) no-repeat center;
+  background-size: cover;
+}
+.sch11{
+  width: 100%;
+  height: 350px;
+  background: url(sf11.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.sch11:hover{
+  background: url(sb11.png) no-repeat center;
+  background-size: cover;
+}
+.sch12{
+  width: 100%;
+  height: 350px;
+  background: url(sf12.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.sch12:hover{
+  background: url(sb12.png) no-repeat center;
+  background-size: cover;
+}
+
+/* 8th page */
+
+.col1{
+  width: 100%;
+  height: 350px;
+  background: url(cf1.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.col1:hover{
+  background: url(cb1.png) no-repeat center;
+  background-size: cover;
+}
+.col2{
+  width: 100%;
+  height: 350px;
+  background: url(cf2.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.col2:hover{
+  background: url(cb2.png) no-repeat center;
+  background-size: cover;
+}
+.col3{
+  width: 100%;
+  height: 350px;
+  background: url(cf3.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.col3:hover{
+  background: url(cb3.png) no-repeat center;
+  background-size: cover;
+}
+.col4{
+  width: 100%;
+  height: 350px;
+  background: url(cf4.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.col4:hover{
+  background: url(cb4.png) no-repeat center;
+  background-size: cover;
+}
+.col5{
+  width: 100%;
+  height: 350px;
+  background: url(cf5.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.col5:hover{
+  background: url(cb5.png) no-repeat center;
+  background-size: cover;
+}
+.col6{
+  width: 100%;
+  height: 350px;
+  background: url(cf6.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.col6:hover{
+  background: url(cb6.png) no-repeat center;
+  background-size: cover;
+}
+.col7{
+  width: 100%;
+  height: 350px;
+  background: url(cf7.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.col7:hover{
+  background: url(cb7.png) no-repeat center;
+  background-size: cover;
+}
+.col8{
+  width: 100%;
+  height: 350px;
+  background: url(cf8.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.col8:hover{
+  background: url(cb8.png) no-repeat center;
+  background-size: cover;
+}
+.col9{
+  width: 100%;
+  height: 350px;
+  background: url(cf9.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.col9:hover{
+  background: url(cb9.png) no-repeat center;
+  background-size: cover;
+}
+.col10{
+  width: 100%;
+  height: 350px;
+  background: url(cf10.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.col10:hover{
+  background: url(cb10.png) no-repeat center;
+  background-size: cover;
+}
+.col11{
+  width: 100%;
+  height: 350px;
+  background: url(cf14.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.col11:hover{
+  background: url(cb14.png) no-repeat center;
+  background-size: cover;
+}
+.col12{
+  width: 100%;
+  height: 350px;
+  background: url(cf12.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.col12:hover{
+  background: url(cb12.png) no-repeat center;
+  background-size: cover;
+}
+
+/* 9th page */
+
+.uni1{
+  width: 100%;
+  height: 350px;
+  background: url(uf1.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.uni1:hover{
+  background: url(ub1.png) no-repeat center;
+  background-size: cover;
+}
+.uni2{
+  width: 100%;
+  height: 350px;
+  background: url(uf2.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.uni2:hover{
+  background: url(ub2.png) no-repeat center;
+  background-size: cover;
+}
+.uni3{
+  width: 100%;
+  height: 350px;
+  background: url(uf3.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.uni3:hover{
+  background: url(ub3.png) no-repeat center;
+  background-size: cover;
+}
+.uni4{
+  width: 100%;
+  height: 350px;
+  background: url(uf4.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.uni4:hover{
+  background: url(ub4.png) no-repeat center;
+  background-size: cover;
+}
+.uni5{
+  width: 100%;
+  height: 350px;
+  background: url(uf5.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.uni5:hover{
+  background: url(ub5.png) no-repeat center;
+  background-size: cover;
+}
+.uni6{
+  width: 100%;
+  height: 350px;
+  background: url(uf6.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.uni6:hover{
+  background: url(ub6.png) no-repeat center;
+  background-size: cover;
+}
+.uni7{
+  width: 100%;
+  height: 350px;
+  background: url(uf7.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.uni7:hover{
+  background: url(ub7-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.uni8{
+  width: 100%;
+  height: 350px;
+  background: url(uf8.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.uni8:hover{
+  background: url(ub8-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.uni9{
+  width: 100%;
+  height: 350px;
+  background: url(uf9.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.uni9:hover{
+  background: url(ub9-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.uni10{
+  width: 100%;
+  height: 350px;
+  background: url(uf10.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.uni10:hover{
+  background: url(ub10.png) no-repeat center;
+  background-size: cover;
+}
+.uni11{
+  width: 100%;
+  height: 350px;
+  background: url(uf11.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.uni11:hover{
+  background: url(ub11.png) no-repeat center;
+  background-size: cover;
+}
+.uni12{
+  width: 100%;
+  height: 350px;
+  background: url(uf12.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.uni12:hover{
+  background: url(ub12.png) no-repeat center;
+  background-size: cover;
+}
+
+/* 10th page */
+
+.tui1{
+  width: 100%;
+  height: 350px;
+  background: url(tf1.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.tui1:hover{
+  background: url(tb1.png) no-repeat center;
+  background-size: cover;
+}
+.tui2{
+  width: 100%;
+  height: 350px;
+  background: url(tf2.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.tui2:hover{
+  background: url(tb2.png) no-repeat center;
+  background-size: cover;
+}
+.tui3{
+  width: 100%;
+  height: 350px;
+  background: url(tf3.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.tui3:hover{
+  background: url(tb3.png) no-repeat center;
+  background-size: cover;
+}
+.tui4{
+  width: 100%;
+  height: 350px;
+  background: url(tf4.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.tui4:hover{
+  background: url(tb4.png) no-repeat center;
+  background-size: cover;
+}
+.tui5{
+  width: 100%;
+  height: 350px;
+  background: url(tf5.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.tui5:hover{
+  background: url(tb5.png) no-repeat center;
+  background-size: cover;
+}
+.tui6{
+  width: 100%;
+  height: 350px;
+  background: url(tf6.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.tui6:hover{
+  background: url(tb6.png) no-repeat center;
+  background-size: cover;
+}
+.tui7{
+  width: 100%;
+  height: 350px;
+  background: url(tf7.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.tui7:hover{
+  background: url(tb7.png) no-repeat center;
+  background-size: cover;
+}
+.tui8{
+  width: 100%;
+  height: 350px;
+  background: url(tf8.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.tui8:hover{
+  background: url(tb8.png) no-repeat center;
+  background-size: cover;
+}
+.tui9{
+  width: 100%;
+  height: 350px;
+  background: url(tf9.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.tui9:hover{
+  background: url(tb9.png) no-repeat center;
+  background-size: cover;
+}
+.tui10{
+  width: 100%;
+  height: 350px;
+  background: url(tf10.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.tui10:hover{
+  background: url(tb10.png) no-repeat center;
+  background-size: cover;
+}
+.tui11{
+  width: 100%;
+  height: 350px;
+  background: url(tf11.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.tui11:hover{
+  background: url(tb11.png) no-repeat center;
+  background-size: cover;
+}
+.tui12{
+  width: 100%;
+  height: 350px;
+  background: url(tf12.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.tui12:hover{
+  background: url(tb12.png) no-repeat center;
+  background-size: cover;
+}
+
+/* 11th page */
+
+.mad1{
+  width: 100%;
+  height: 350px;
+  background: url(wf1.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mad1:hover{
+  background: url(wb1-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.mad2{
+  width: 100%;
+  height: 350px;
+  background: url(wf2.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mad2:hover{
+  background: url(wb2-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.mad3{
+  width: 100%;
+  height: 350px;
+  background: url(wf3.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mad3:hover{
+  background: url(wb3-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.mad4{
+  width: 100%;
+  height: 350px;
+  background: url(wf4.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mad4:hover{
+  background: url(wb4.png) no-repeat center;
+  background-size: cover;
+}
+.mad5{
+  width: 100%;
+  height: 350px;
+  background: url(wf5.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mad5:hover{
+  background: url(wb5.png) no-repeat center;
+  background-size: cover;
+}
+.mad6{
+  width: 100%;
+  height: 350px;
+  background: url(wf6.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mad6:hover{
+  background: url(wb6.png) no-repeat center;
+  background-size: cover;
+}
+.mad7{
+  width: 100%;
+  height: 350px;
+  background: url(wf7.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mad7:hover{
+  background: url(wb7-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.mad8{
+  width: 100%;
+  height: 350px;
+  background: url(wf8.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mad8:hover{
+  background: url(wb8-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.mad9{
+  width: 100%;
+  height: 350px;
+  background: url(wf9.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mad9:hover{
+  background: url(wb9-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.mad10{
+  width: 100%;
+  height: 350px;
+  background: url(wf10.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mad10:hover{
+  background: url(wb10-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.mad11{
+  width: 100%;
+  height: 350px;
+  background: url(wf11.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mad11:hover{
+  background: url(wb11-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.mad12{
+  width: 100%;
+  height: 350px;
+  background: url(wf12.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.mad12:hover{
+  background: url(wb12-removebg.png) no-repeat center;
+  background-size: cover;
+}
+
+/* 12th page */
+
+.coc1{
+  width: 100%;
+  height: 350px;
+  background: url(xf1.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.coc1:hover{
+  background: url(xb1.png) no-repeat center;
+  background-size: cover;
+}
+.coc2{
+  width: 100%;
+  height: 350px;
+  background: url(xf2.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.coc2:hover{
+  background: url(xb2.png) no-repeat center;
+  background-size: cover;
+}
+.coc3{
+  width: 100%;
+  height: 350px;
+  background: url(xf3.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.coc3:hover{
+  background: url(xb3.png) no-repeat center;
+  background-size: cover;
+}
+.coc4{
+  width: 100%;
+  height: 350px;
+  background: url(xf4.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.coc4:hover{
+  background: url(xb4.png) no-repeat center;
+  background-size: cover;
+}
+.coc5{
+  width: 100%;
+  height: 350px;
+  background: url(xf5.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.coc5:hover{
+  background: url(xb5.png) no-repeat center;
+  background-size: cover;
+}
+.coc6{
+  width: 100%;
+  height: 350px;
+  background: url(xf6.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.coc6:hover{
+  background: url(xb6.png) no-repeat center;
+  background-size: cover;
+}
+.coc7{
+  width: 100%;
+  height: 350px;
+  background: url(xf7.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.coc7:hover{
+  background: url(xb7.png) no-repeat center;
+  background-size: cover;
+}
+.coc8{
+  width: 100%;
+  height: 350px;
+  background: url(xf8.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.coc8:hover{
+  background: url(xb8.png) no-repeat center;
+  background-size: cover;
+}
+.coc9{
+  width: 100%;
+  height: 350px;
+  background: url(xf9.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.coc9:hover{
+  background: url(xb9.png) no-repeat center;
+  background-size: cover;
+}
+.coc10{
+  width: 100%;
+  height: 350px;
+  background: url(girlf5-removebg.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.coc10:hover{
+  background: url(girlb5-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.coc11{
+  width: 100%;
+  height: 350px;
+  background: url(girlf6-removebg.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.coc11:hover{
+  background: url(girlb6-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.coc12{
+  width: 100%;
+  height: 350px;
+  background: url(girlf7-removebg.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.coc12:hover{
+  background: url(girlb7-removebg.png) no-repeat center;
+  background-size: cover;
+}
+
+/* 13th page */
+
+.cob1{
+  width: 100%;
+  height: 350px;
+  background: url(zf1.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.cob1:hover{
+  background: url(zb1.png) no-repeat center;
+  background-size: cover;
+}
+.cob2{
+  width: 100%;
+  height: 350px;
+  background: url(zf2.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.cob2:hover{
+  background: url(zb2.png) no-repeat center;
+  background-size: cover;
+}
+.cob3{
+  width: 100%;
+  height: 350px;
+  background: url(zf3.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.cob3:hover{
+  background: url(zb3-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.cob4{
+  width: 100%;
+  height: 350px;
+  background: url(zf4.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.cob4:hover{
+  background: url(zb4-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.cob5{
+  width: 100%;
+  height: 350px;
+  background: url(zf5.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.cob5:hover{
+  background: url(zb5-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.cob6{
+  width: 100%;
+  height: 350px;
+  background: url(zf6.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.cob6:hover{
+  background: url(zb6.png) no-repeat center;
+  background-size: cover;
+}
+.cob7{
+  width: 100%;
+  height: 350px;
+  background: url(zf7.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.cob7:hover{
+  background: url(zb7.png) no-repeat center;
+  background-size: cover;
+}
+.cob8{
+  width: 100%;
+  height: 350px;
+  background: url(zf8.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.cob8:hover{
+  background: url(zb8-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.cob9{
+  width: 100%;
+  height: 350px;
+  background: url(zf9.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.cob9:hover{
+  background: url(zb9.png) no-repeat center;
+  background-size: cover;
+}
+.cob10{
+  width: 100%;
+  height: 350px;
+  background: url(zf10.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.cob10:hover{
+  background: url(zb10.png) no-repeat center;
+  background-size: cover;
+}
+.cob11{
+  width: 100%;
+  height: 350px;
+  background: url(zf11.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.cob11:hover{
+  background: url(zb11-removebg.png) no-repeat center;
+  background-size: cover;
+}
+.cob12{
+  width: 100%;
+  height: 350px;
+  background: url(zf12.png) no-repeat center;
+  background-size: cover;
+  transition: 0.9s;
+}
+.cob12:hover{
+  background: url(zb12.png) no-repeat center;
+  background-size: cover;
+}
